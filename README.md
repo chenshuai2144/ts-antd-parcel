@@ -34,7 +34,7 @@ npm run build | yarn build
 ## 参考
 
 [parceljs](https://parceljs.org/getting_started.html) 零配置打包工具  
-[react](https://reactjs.org/) 一个界面库
-[typescript](https://www.typescriptlang.org/) 一个 js 增强语言
-[tslint](https://palantir.github.io/tslint/) 代码风格管理器
+[react](https://reactjs.org/) 一个界面库  
+[typescript](https://www.typescriptlang.org/) 一个 js 增强语言  
+[tslint](https://palantir.github.io/tslint/) 代码风格管理器  
 [perttier](https://prettier.io/) 完美的语法法工具
