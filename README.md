@@ -1,51 +1,32 @@
-# Typescript + React + Parcel = ❤️ 
+#Typescript + React + Parcel =❤️
 
-This repository has basic settings for buildling react application in Typescript.
+此存储库具有在 Typescript 中构建 react 应用程序的基本设置。
 
-The original source code of the provided example is [here](https://github.com/kentcdodds/advanced-react-patterns/blob/master/14-use-control-props/index.html).
+##内置设置
 
-## Built in settings
+* React + ReactDOM（ver.16）
+* Typescript（带有 TSLint 设置）
+* prettier + tslint 配置漂亮
+* Parcel bundle
 
-- React + ReactDOM (ver.16)
-- Typescript (with TSLint setting)
-- Prettier + tslint-config-prettier
-- Test configuration using Jest + Enzyme
-- Parcel bundler
-
-## How to set up the project
+##如何使用项目
 
 ```
-git clone git@github.com:emaren84/ts-react-parcel.git
+git clone https://git.yundcs.com/dcs/ts-react-parcel.git
 cd ts-react-parcel
-npm install
+npm install | yarn
 ```
 
-## How to start development for the application
+##如何开始应用程序开发
 
-    npm run develop
+yarn develop
 
-Execute the command and you can run & test the application on `localhost:1234` in the browser.
+执行这个命令，你可以在你的浏览器的`localhost：1234`上运行＆测试这个应用程序。
 
-## How to build the application
+##如何构建应用程序
 
-    npm run build
+npm run build | yarn build
 
-The default output directory is `/dist`. You can change the destination wherever you want.
-
-```
-// package.json
-// ...
-"scripts": {
-  // ...
-  "build": "parcel build ./src/index.html -d YOUR_OUTPUT_DIR --public-url '/'" <- Change here
-}
-// ...
-```
-
-## How to test the application
-
-    npm run test        # run test once
-    npm run test:watch  # watch mode
-
-You have to create `__tests__` directory at the same location of files which you want to test.
-Test file's name should be `SOURCE.test.ts/tsx/js` or `SOURCE.spec.ts/tsx/js`.
+默认输出目录是`/ dist`。 你可以修改
+`"build": "parcel build ./src/index.html --public-url '/'",`
+来修改部署地方
