@@ -1,0 +1,49 @@
+{
+  "name": "ts-react-parcel",
+  "version": "1.0.0",
+  "description": "Typescript with React, using parcel bundler",
+  "main": "index.js",
+  "scripts": {
+    "develop": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url '/'",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/config/test-shim.js",
+      "<rootDir>/config/test-setup.js"
+    ],
+    "moduleFileExtensions": ["ts", "tsx", "js"],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/config/test-preprocessor.js"
+    },
+    "testMatch": ["**/__tests__/*.(test|spec).(ts|tsx|js)"]
+  },
+  "keywords": ["Typescript", "React", "Parcel"],
+  "author": "Ahn Dohyung",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.0.35",
+    "@types/react-dom": "^16.0.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.8",
+    "@types/jest": "^22.1.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.1.4",
+    "parcel-bundler": "^1.5.1",
+    "parcel-plugin-typescript": "^0.5.3",
+    "prettier": "^1.10.2",
+    "react-test-renderer": "^16.2.0",
+    "ts-jest": "^22.0.2",
+    "tslint": "^5.9.1",
+    "tslint-config-airbnb": "^5.5.0",
+    "tslint-config-prettier": "^1.6.0",
+    "tslint-react": "^3.4.0",
+    "typescript": "^2.6.2"
+  }
+}
