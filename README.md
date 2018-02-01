@@ -17,6 +17,9 @@ cd ts-react-parcel
 npm install | yarn
 ```
 
+## 反向代理
+如果需要反向代理功能，可以在[index.js](./index.js)中找到配置。详细语法和设置清参考 [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware),
+
 ## 如何开始应用程序开发
 
 yarn develop

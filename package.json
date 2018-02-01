@@ -4,28 +4,17 @@
   "description": "Typescript with React, using parcel bundler",
   "main": "index.js",
   "scripts": {
-    "develop": "parcel ./src/index.html",
+    "develop": "node index.js",
     "build": "parcel build ./src/index.html --public-url '/'",
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "jest": {
-    "setupFiles": [
-      "<rootDir>/config/test-shim.js",
-      "<rootDir>/config/test-setup.js"
-    ],
-    "moduleFileExtensions": ["ts", "tsx", "js"],
-    "transform": {
-      "^.+\\.(ts|tsx)$": "<rootDir>/config/test-preprocessor.js"
-    },
-    "testMatch": ["**/__tests__/*.(test|spec).(ts|tsx|js)"]
-  },
   "keywords": ["Typescript", "React", "Parcel"],
-  "author": "Ahn Dohyung",
-  "license": "MIT",
   "dependencies": {
     "@types/react": "^16.0.35",
     "@types/react-dom": "^16.0.3",
+    "express": "^4.16.2",
+    "http-proxy-middleware": "^0.17.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
