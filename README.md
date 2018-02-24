@@ -2,6 +2,9 @@
 
 此存储库具有在 Typescript 中构建 react 应用程序的基本设置。
 
+
+项目修改自 [ts-react-parcel](https://github.com/emaren84/ts-react-parcel)
+
 ## 内置设置
 
 * React + ReactDOM（ver.16）
@@ -35,7 +38,7 @@ npm run build | yarn build
 来修改部署地方
 
 ## 参考
-
+[ts-react-parcel](https://github.com/emaren84/ts-react-parcel)
 [parceljs](https://parceljs.org/getting_started.html) 零配置打包工具  
 [react](https://reactjs.org/) 一个界面库  
 [typescript](https://www.typescriptlang.org/) 一个 js 增强语言  
