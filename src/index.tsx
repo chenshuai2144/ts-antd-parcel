@@ -1,5 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import { Button } from 'antd';
 import './index.css';
 /**
  * 入口app
@@ -8,7 +9,14 @@ import './index.css';
  */
 class App extends React.PureComponent<{}, {}> {
   render() {
-    return <div className="main">这里是个demo</div>;
+    return (
+      <div className="main">
+        <Button type="primary">Primary</Button>
+        <Button>Default</Button>
+        <Button type="dashed">Dashed</Button>
+        <Button type="danger">Danger</Button>
+      </div>
+    );
   }
 }
 

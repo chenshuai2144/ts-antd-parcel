@@ -9,10 +9,15 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "keywords": ["Typescript", "React", "Parcel"],
+  "keywords": [
+    "Typescript",
+    "React",
+    "Parcel"
+  ],
   "dependencies": {
     "@types/react": "^16.0.35",
     "@types/react-dom": "^16.0.3",
+    "antd": "3.1.0",
     "express": "^4.16.2",
     "http-proxy-middleware": "^0.17.4",
     "react": "^16.2.0",
