@@ -4,7 +4,7 @@
   "description": "Typescript with React, using parcel bundler",
   "main": "index.js",
   "scripts": {
-    "develop": "node index.js",
+    "dev": "node index.js",
     "build": "parcel build ./src/index.html --public-url '/'",
     "test": "jest",
     "test:watch": "jest --watch"

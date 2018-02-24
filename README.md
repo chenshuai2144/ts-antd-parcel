@@ -22,7 +22,7 @@ npm install | yarn
 
 ## 如何开始应用程序开发
 
-yarn develop
+yarn dev
 
 执行这个命令，你可以在你的浏览器的`localhost:1234`上运行＆测试这个应用程序。
 
@@ -40,4 +40,4 @@ npm run build | yarn build
 [react](https://reactjs.org/) 一个界面库  
 [typescript](https://www.typescriptlang.org/) 一个 js 增强语言  
 [tslint](https://palantir.github.io/tslint/) 代码风格管理器  
-[perttier](https://prettier.io/) 完美的语法法工具
+[perttier](https://prettier.io/) 简单好用的语法法工具
